@@ -1,15 +1,15 @@
 # mm3 Installation Guide
 
-mm3 runs on Python 2.7. Follow the guide below to get it running.
+mm3 runs on Python 3.4. Follow the guide below to get it running.
 
 Python comes native on your computer, but it is recommended to install the popular distribution Anaconda. This is a free distribution that includes most of the common scientific and engineering packages.
 
 mm3 has only been tested on MacOSX.
 
-## Install Anaconda Python 2.7
+## Install Anaconda Python 3.4
 
 1. Go to the [Anaconda homepage](https://www.continuum.io/downloads)
-2. Download the **Python 2.7** graphical installer.
+2. Download the **Python 3.4** graphical installer.
 3. Follow the GUI to install.
 
 ### Check the install
