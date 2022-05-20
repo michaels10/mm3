@@ -81,13 +81,13 @@ Find your hostname by entering the command:
 
 We now need to grant your user the privilege to execute the `sudo docker` command without having to enter a password. Open (or create) the following file using admin privileges:
 
-`sudo open -a textedit /etc/sudoers.d/docker`
+`sudo visudo -f /etc/sudoers.d/docker`
 
-Then, add the following line:
+This will open the file in vi. In case you are unfamiliar, press 'i' to start editing. Then, add the following line:
 
 `USERNAME HOSTNAME = NOPASSWD: /usr/local/bin/docker`
 
-where `USERNAME` and `HOSTNAME` need to be replaced by your own values for the user name and host name, that you have determined above.
+where `USERNAME` and `HOSTNAME` need to be replaced by your own values for the user name and host name, that you have determined above. When you are done editing, press <Esc>, and then ':wq'.
 
 You can now run docker without entering password, and without the `sudo` command. Try for instance:
 
