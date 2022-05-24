@@ -24,7 +24,7 @@ Run in terminal or iPython session. The -f option is required followed by the pa
 
 **Parameters File**
 
-Fill out the parameters file normally, the most important thing is that you have the file and folder names right.
+Fill out the parameters file normally, the most important thing is that you have the file and folder names right. In case of offset data, you will want to use the crop_ymin and crop_ymax parameters to remove any artifacts. Please keep in mind that you must set either both or neither of these, setting just one will not work.
 
 **Hardcoded parameters**
 
